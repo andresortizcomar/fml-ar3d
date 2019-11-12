@@ -8,7 +8,7 @@
 <a-scene embedded arjs>
   
     <a-assets>
-         <a-asset-item id="popo" src="https://cdn.aframe.io/test-models/models/brainstem/BrainStem.gltf"></a-asset-item>
+         <!--<a-asset-item id="popo" src="https://cdn.aframe.io/test-models/models/brainstem/BrainStem.gltf"></a-asset-item>-->
          <a-asset-item id="pescao-obj" src="modelo/fish-2.obj"></a-asset-item>
          <a-asset-item id="pescao-mtl" src="modelo/fish-2.mtl"></a-asset-item>
   </a-assets>
@@ -21,7 +21,7 @@
   <a-sky color="#ccFAFA"></a-sky>
       <a-marker preset="hiro">
        <!--<a-gltf-model src="#popo"></a-gltf-model>-->
-        <a-obj-model src="#pescao-obj" mtl="#pescao-mtl"></a-obj-model>
+        <a-obj-model src="#pescao-obj" mtl="#pescao-mtl" scale="0.01 0.01 0.01"></a-obj-model>
       </a-marker>
       <a-entity camera></a-entity>
 </a-scene>
